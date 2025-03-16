@@ -11,3 +11,4 @@ wheels/
 
 # Kaggle
 data/
+*.zip
