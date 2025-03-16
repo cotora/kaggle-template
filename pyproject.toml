@@ -1,16 +1,15 @@
 [project]
-name = "drawing-with-llm"
+name = "kaggle-template"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
-    "datasets>=3.3.2",
-    "defusedxml>=0.7.1",
+    "datasets>=3.4.0",
     "matplotlib>=3.10.1",
     "numpy>=2.2.3",
     "pathlib>=1.0.1",
-    "polars>=1.24.0",
+    "polars>=1.25.2",
     "seaborn>=0.13.2",
     "torch>=2.6.0",
     "transformers>=4.49.0",
@@ -21,7 +20,6 @@ dev = ["mypy>=1.15.0", "pre-commit>=4.1.0", "pytest>=8.3.5", "ruff>=0.9.9"]
 
 [tool.ruff]
 line-length = 120
-exclude = ["src/kaggle_evaluation"]
 
 [tool.ruff.lint]
 select = ["ALL"]
